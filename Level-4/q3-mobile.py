@@ -8,13 +8,13 @@ class Mobile:
         print("Company:", self.company)
         print("Model:", self.model)
         print("Price:", self.price)
+
     def discount(self):
-        a=self.price*0.2
-        self.price -= a
-        print("After Discount")
+        discount_amount = self.price * 0.2
+        self.price -= discount_amount
+        print("After Discount:", discount_amount)
 
 v = Mobile("Samsung", "S26 ULTRA", 95000)
 v.show()
 v.discount()
 v.show()
-
