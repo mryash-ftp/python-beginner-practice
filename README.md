@@ -1,20 +1,49 @@
-# Python Beginner Practice
+# Python Beginner Practice 🚀
 
-Yeh repository Python seekhne aur practice karne ke liye banayi gayi hai. Isme basic se lekar intermediate level tak ke alag-alag modules aur exercises hain.
+Welcome to my Python learning journey! Is repository mein maine Python ke basic concepts se lekar professional level tak ke programs step-by-step solve kiye hain.
 
-## Repository Structure
+## 📊 Progress Dashboard
 
-Project ko difficulty ke hisaab se distribute kiya gaya hai:
+| Level | Topic | Status | Programs |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | Basics (Variables, Input) | ✅ Done | 10 |
+| **Level 2** | Logic & Strings (Reverse, Palindrome) | ✅ Done | 10 |
+| **Level 3** | Functions & Arguments | ✅ Done | 10 |
+| **Level 4** | Real-world Objects (OOPs - Bank, Car, Student) | ✅ Done | 5 |
+| **Level 5** | Advanced Logic & File Handling | ⏳ In Progress | 5 |
+| **Break Limit** | Mini Projects (ATM, Guess Game, Card System) | 🔥 Active | 3+ |
 
-* **Level-1:** Basics (Variables, Data Types, Input/Output).
-* **Level-2:** Control Flow (If-Else, Loops).
-* **Level-3:** Functions aur Arguments.
-* **Level-4:** Advanced beginner concepts (Classes/Objects).
-* **Level-5:** File Handling aur Data Management. 
-* **break_limit:** Challenges aur unique problem-solving scripts.
+---
 
-## Kaise Use Karein?
+## 📂 Repository Structure
 
-1. Repository ko clone karein:
+### 🔹 [Level-1 & 2] Fundamentals
+Basic programming logic jaise string manipulation, list operations, aur loops.
+* *Example:* `q1-reverse-string.py`, `q7-grade-calculator.py`.
+
+### 🔹 [Level-3] Functional Programming
+Re-usable code banana functions ke saath.
+* *Example:* `q10-default-argument.py`, `q7-fibonacci.py`.
+
+### 🔹 [Level-4] Object Oriented Programming (OOPs)
+Real-world entities ko code mein badalna.
+* *Example:* `q2-bank-account.py`, `q4-car.py`, `q5-rectangle.py`.
+
+### 🔹 [Level-5] File Handling & JSON
+Data ko files mein store karna aur read karna.
+* *Example:* `q1_file_handle.py`, `q4_try_json.py`.
+
+### 🔹 [Break Limit] Mini Projects
+Thode bade projects jisme saari learning use hoti hai.
+* **ATM System:** Basic banking operations.
+* **Guess Game:** Random number guessing logic.
+* **Card System:** JSON based data storage.
+
+---
+
+## 🛠️ How to Run
+Agar aap in programs ko test karna chahte hain:
+
+1. Clone the repo:
    ```bash
    git clone [https://github.com/mryash-ftp/python-beginner-practice.git](https://github.com/mryash-ftp/python-beginner-practice.git)
