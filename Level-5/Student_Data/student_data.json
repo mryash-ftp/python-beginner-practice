@@ -1,0 +1,28 @@
+[
+    {
+        "Name": "Alven",
+        "Age": 18,
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry"
+        ],
+        "mobile": "9795941891"
+    },
+    {
+        "Name": "Pradeep",
+        "Age": 19,
+        "subjects": [
+            "Python"
+        ],
+        "mobile": "9795951891"
+    },
+    {
+        "Name": "Alex",
+        "Age": 18,
+        "subjects": [
+            "Html"
+        ],
+        "mobile": "9795941891"
+    }
+]
