@@ -1,0 +1,12 @@
+import customtkinter as ctk
+
+root = ctk.CTk()
+
+root.title("Simple Calculater")
+root.geometry("450x500")
+
+lbl= ctk.CTkLabel(root,text="Welcome To Alevn x First Ui !",font=("Poppins",20,"bold"))
+lbl.pack(pady=20)
+
+
+root.mainloop()
