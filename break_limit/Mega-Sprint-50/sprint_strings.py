@@ -28,3 +28,12 @@ def analysis(user):
             dict[i]=1
 
     print(f"Character frequencies: {dict}")
+
+    text =user
+    result = text.replace(" ", "_")
+    print(result)
+
+            
+
+user=input("Enter a sentence: ")
+analysis(user)
