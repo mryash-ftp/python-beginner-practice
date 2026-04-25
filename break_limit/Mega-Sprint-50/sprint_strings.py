@@ -15,3 +15,16 @@ def analysis(user):
     print(f"Number of uppercase letters: {uppcount}")
     print(f"Number of lowercase letters: {lowcount}")
 
+    if user==user[::-1]:
+        print("The sentence is a palindrome.")
+    else:
+        print("The sentence is not a palindrome.")
+    
+    dict={}
+    for i in user:
+        if i in dict:
+            dict[i]+=1
+        else:
+            dict[i]=1
+
+    print(f"Character frequencies: {dict}")
