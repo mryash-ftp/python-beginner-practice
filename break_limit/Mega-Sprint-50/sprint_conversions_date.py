@@ -3,7 +3,7 @@ import datetime as dt
 def utility():
     a=dt.datetime.now()
     print(a.strftime("Date: %d-%m-%y | Time : %I:%H:%S"))
-    if a.year%4==0 or a.year%100==0 and a%400==0:
+    if a.year%4==0 or a.year%100==0 and a.year%400==0:
         print("Leap Year")
     else:
         print("Not Leap Year")
